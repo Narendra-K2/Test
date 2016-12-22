@@ -10,7 +10,7 @@ namespace TestApplicaiton
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello! I am learning how to use git remotely!");
+            
             Console.WriteLine("Hello again! Please Enter a number for fabo series : ");
             int n = int.Parse( Console.ReadLine());
             string series = FabonacciSeries(n);
