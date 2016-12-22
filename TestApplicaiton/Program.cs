@@ -9,9 +9,8 @@ namespace TestApplicaiton
     class Program
     {
         static void Main(string[] args)
-        {
-            
-            Console.WriteLine("Hello again! Please Enter a number for fabo series : ");
+        {  
+            Console.WriteLine("Hello! Please Enter a number for fabo series : ");
             int n = int.Parse( Console.ReadLine());
             string series = FabonacciSeries(n);
             Console.WriteLine(series);
