@@ -10,7 +10,7 @@ namespace TestApplicaiton
     {
         static void Main(string[] args)
         {  
-            Console.WriteLine("Hello! Please Enter a number for fabo series : ");
+            Console.WriteLine("Hello! Please enter a number for fabonacci series : ");
             int n = int.Parse( Console.ReadLine());
             string series = FabonacciSeries(n);
             Console.WriteLine(series);
