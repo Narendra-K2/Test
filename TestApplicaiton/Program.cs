@@ -31,6 +31,7 @@ namespace TestApplicaiton
                 b = s;
                 sb.Append(s + ",");
             }
+            sb.Remove(sb.Length-1,1);
 
             return sb.ToString();
         }
